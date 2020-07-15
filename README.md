@@ -2,11 +2,11 @@ Prediction of genders of english names based on US Social Security data. The gen
 
 The full data can be found at https://www.ssa.gov/oact/babynames/limits.html
 
-Description
+# Description
 
 The main function returns the probability for a given english name to be a male name. There are optional arguments start_year (default 1880) and end_year (default 2018) to use a specific period of time for calculation. For instance, for gender prediction of babyboomers, the period can be set to 1946-1965.
 
-Installation
+# Installation
 ```
 $ pip install
 ```
