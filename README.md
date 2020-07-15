@@ -11,7 +11,7 @@ The main function returns the probability for a given english name to be a male 
 $ pip install
 ```
 
-Basic Usage
+# Basic Usage
 ```python
 >>> from NameGenderPredictor import predict_gender
 >>> name='john'
