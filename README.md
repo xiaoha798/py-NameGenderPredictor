@@ -7,6 +7,7 @@ The full data can be found at https://www.ssa.gov/oact/babynames/limits.html
 The main function returns the probability for a given english name to be a male name. There are optional arguments start_year (default 1880) and end_year (default 2018) to use a specific period of time for calculation. For instance, for gender prediction of babyboomers, the period can be set to 1946-1965.
 
 # Installation
+Requires package sqlite3 with can be installed with `pip install sqlite3`.
 ```
 $ pip install
 ```
