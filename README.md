@@ -4,7 +4,7 @@ The full data can be found at https://www.ssa.gov/oact/babynames/limits.html
 
 # Description
 
-The main function returns the probability for a given english name to be a male name. There are optional arguments start_year (default 1880) and end_year (default 2018) to use a specific period of time for calculation. For instance, for gender prediction of babyboomers, the period can be set to 1946-1965. If the name is absent from the database, `None` is returned. 
+The main function returns the probability for a given english name to be a male name. There are optional arguments start_year (default 1880) and end_year (default 2018) to use a specific period of time for calculation. For instance, for gender prediction of babyboomers, the period can be set to 1946-1965. If the name is absent from the database, `None` is returned.
 
 # Installation
 Requires package sqlite3. The code was only tested with Python 3.7.
@@ -13,6 +13,7 @@ $ pip install NameGenderPredictor
 ```
 
 # Basic Usage
+Function `predict_gender` is case insensitive for names (see below). 
 ```python
 >>> from NameGenderPredictor import predict_gender
 >>> print(predict_gender('john'))
