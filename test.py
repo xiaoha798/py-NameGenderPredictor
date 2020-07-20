@@ -11,6 +11,6 @@ while(True):
     if name.lower()=='x':
         break
     else:
-        p=predict_gender(name)
+        p=predict_gender(name,1950,1965)
         print('Male probability is '+str(p))
         

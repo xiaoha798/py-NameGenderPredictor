@@ -12,7 +12,6 @@ import sqlite3
 # cursor = sqliteConnection.cursor()
 
 def predict_gender(name,start_year=1880,end_year=2018):
-    print(name)
     sqliteConnection = sqlite3.connect(join(base_dir,'nameGenderUSSSA.db'))
     cursor = sqliteConnection.cursor()
     nyears=end_year-start_year+1

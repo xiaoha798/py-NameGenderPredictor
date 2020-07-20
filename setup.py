@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NameGenderPredictor", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Hadrien Van Lierde",
     author_email="hadrien.vanlierde@gmail.com",
     description="Prediction of gender probabilities for English names.",
@@ -20,6 +20,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/xiaoha798/py-NameGenderPredictor",
     packages=setuptools.find_packages(),
+    package_data={"":['nameGenderUSSSA.db']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
